@@ -28,7 +28,7 @@ function AboutUs_Section() {
           }`}
         >
           {homeData.about_section.subtitle.fst_phrase}
-          <br /> {homeData.about_section.subtitle.snd_phrase}
+        
         </p>
 
         {/* Button */}

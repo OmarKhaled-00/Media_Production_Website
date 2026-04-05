@@ -9,14 +9,14 @@ function OurSolutions_Section() {
       <section
         id="services"
         ref={servicesRef}
-        className="section flex flex-col gap-10 max-md:gap-20"
+        className="section flex flex-col gap-10 "
       >
         <div
           className={`animate__animated ${
             servicesVisible ? "animate__backInDown" : "opacity-0"
           }`}
         >
-          <div className="mt-30 max-md:mt-20">
+          <div className="mt-30 max-md:mt-5">
             <div className="flex flex-col items-center justify-between gap-4 *:capitalize">
               <h3 className="text-3xl text-cyan-500 max-md:text-2xl">
                 {homeData.offer_section.title}
@@ -31,8 +31,9 @@ function OurSolutions_Section() {
           </div>
         </div>
 
-        <div className="flex justify-center gap-5 max-md:flex-col max-md:items-center">
-          <Link
+        <div className="flex justify-center max-md:flex-col gap-5 max-md:items-center">
+         <div className="flex gap-2 items-center">
+           <Link
             to="/photography"
             className={`animate__animated ${
               servicesVisible ? "animate__backInLeft" : "opacity-0"
@@ -57,6 +58,7 @@ function OurSolutions_Section() {
               content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             />
           </Link>
+         </div>
 
           <Link
             to="/socialmedia"

@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <div className="section flex flex-col items-center justify-between gap-4">
         <div className="flex w-full items-center justify-between max-md:flex-col">
-          <div className="ml-7 flex flex-col gap-4 max-md:items-center">
+          <div className="ml-7 mt-5 flex flex-col gap-4 max-md:items-center">
             <span className="text-lg font-bold text-white/70 capitalize">
               {footerData.title}
             </span>
@@ -15,7 +15,7 @@ function Footer() {
               <span className="text-cyan-500">Omega </span>
               {footerData.subtitle.fstWrd} <br /> {footerData.subtitle.sndWrd}
             </h3>
-            <span className="relative w-[50%] text-lg font-bold text-white/70 capitalize before:absolute before:top-25 before:left-10 before:h-1 before:w-50 before:rounded-lg before:bg-cyan-500 before:content-[''] max-md:text-center max-md:before:top-45 max-md:before:left-0">
+            <span className="relative w-[50%] text-lg font-bold text-white/70 capitalize before:absolute before:top-25 before:left-10 before:h-1 before:w-50 before:rounded-lg before:bg-cyan-500 before:content-[''] max-md:text-center max-md:before:top-60 max-md:before:left-0">
               {footerData.describation}
             </span>
           </div>
