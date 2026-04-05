@@ -22,13 +22,16 @@ function Header_Section() {
           </h2>
         </div>
 
-        <video
-          src={homeData.hero_section.video_path}
-          autoPlay
-          muted
-          loop
-          className="absolute inset-0 h-full w-full object-cover"
-        />
+<div className="relative w-full h-dvh overflow-hidden">
+  <video
+    src={homeData.hero_section.video_path}
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute top-0 left-0 min-h-full min-w-full max-md:object-fill object-cover"
+  />
+</div>
       </section>
     </>
   );
