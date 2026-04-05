@@ -15,7 +15,7 @@ function Footer() {
               <span className="text-cyan-500">Omega </span>
               {footerData.subtitle.fstWrd} <br /> {footerData.subtitle.sndWrd}
             </h3>
-            <span className="relative w-[50%] text-lg font-bold text-white/70 capitalize before:absolute before:top-25 before:left-10 before:h-1 before:w-50 before:rounded-lg before:bg-cyan-500 before:content-[''] max-md:text-center max-md:before:top-60 max-md:before:left-0">
+            <span className="relative w-[50%] text-lg font-bold text-white/70 capitalize before:absolute before:top-25 before:left-10 before:h-1 before:w-50 before:rounded-lg before:bg-cyan-500 before:content-[''] max-md:text-center max-md:before:hidden ">
               {footerData.describation}
             </span>
           </div>

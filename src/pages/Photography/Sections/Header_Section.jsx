@@ -13,7 +13,7 @@ function Header_Section() {
 
         <div className="flex w-fit flex-col items-center justify-center gap-3 delay-200">
           {/* Title */}
-          <h2 className="animate__animated animate__slideInUp text-8xl font-bold text-white uppercase max-md:text-6xl">
+          <h2 className="animate__animated animate__slideInUp text-8xl max-md:text-center  font-bold text-white uppercase max-md:text-5xl">
             {photographyData.primary_section.title.fst_Wrd}
             <br />
             <span className="text-cyan-500">

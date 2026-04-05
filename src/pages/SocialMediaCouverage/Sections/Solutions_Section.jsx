@@ -10,7 +10,7 @@ function Solutions_Section() {
         ref={cardsRef}
         className={`${cardsVisible ? "animate__animated animate__fadeInUp" : "opacity-0"} flex flex-col items-center`}
       >
-        <h2 className="relative text-5xl text-white before:absolute before:-bottom-7 before:left-18 before:h-1 before:w-25 before:bg-cyan-500 before:content-['']">
+        <h2 className="relative text-5xl max-md:text-4xl max-md:before:left-12 text-white before:absolute before:-bottom-7 before:left-18 before:h-1 before:w-25 before:bg-cyan-500 before:content-['']">
           {socialMediaData.solution_section.title}
         </h2>
         <div className="mt-30 grid grid-cols-2 gap-10 max-md:grid-cols-1">
