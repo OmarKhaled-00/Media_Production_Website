@@ -4,7 +4,7 @@ import styled from "styled-components";
 function HomeCards({ title, photo, content }) {
   return (
     <StyledWrapper>
-      <div className="card-container group h-80 w-80 overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(135deg,rgba(0,0,0,0.75)_0%,rgba(0,0,0,0.95)_100%)] before:content-[''] max-md:h-38 max-md:w-38 max-md:justify-around">
+      <div className="card-container group h-80 w-80 overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(135deg,rgba(0,0,0,0.75)_0%,rgba(0,0,0,0.95)_100%)] before:content-[''] max-xl:h-55 max-xl:w-55 max-xl:justify-around max-md:h-38 max-md:w-38 ">
         <div className="card">
           <div className="img-content">
             <img
@@ -13,14 +13,14 @@ function HomeCards({ title, photo, content }) {
               className="absolute h-full w-full object-cover opacity-80"
             />
 
-            <h2 className="absolute top-4 rounded-2xl border-2 border-none bg-black/40 px-6 py-4 text-3xl text-white backdrop-blur-lg group-hover:hidden max-md:px-3 max-md:py-2 max-md:text-lg">
+            <h2 className="absolute top-4 rounded-2xl border-2 border-none bg-black/40 px-6 py-4 text-3xl text-white backdrop-blur-lg group-hover:hidden max-md:px-3 max-xl:px-4 max-xl:py-3 max-xl:text-xl max-md:py-2 max-md:text-lg">
               {title}
             </h2>
           </div>
 
           <div className="content">
-            <p className="text-[32px] max-md:text-[12px]">{title}</p>
-            <p className="max-md:text-[8px]">{content}</p>
+            <p className="text-[32px] max-md:text-[12px] max-xl:text-[18px]">{title}</p>
+            <p className="max-md:text-[8px] max-xl:text-[12px]">{content}</p>
           </div>
         </div>
       </div>

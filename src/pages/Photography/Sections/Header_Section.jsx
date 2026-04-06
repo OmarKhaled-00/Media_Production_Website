@@ -7,13 +7,13 @@ function Header_Section() {
       <header className="w-full">
         <Header />
       </header>
-      <section className="relative flex min-h-[80dvh] w-[70%] items-center justify-center overflow-hidden before:absolute before:inset-0 before:animate-[morphing_20s_ease-in-out_infinite] before:bg-[radial-gradient(circle_at_20%_50%,rgba(6,182,212,0.3)_0%,transparent_50%),radial-gradient(circle_at_80%_80%,rgba(6,182,212,0.2)_0%,transparent_50%),radial-gradient(circle_at_40%_80%,rgba(6,182,212,0.1)_0%,transparent_50%)] before:content-[''] max-md:w-[90%]">
-        <div className="floating_rectangle absolute top-[10%] left-[10%] h-25 w-25 rounded-xs border border-cyan-500 max-md:h-12.5 max-md:w-12.5"></div>
-        <div className="floating_circle absolute top-[70%] right-[10%] h-35 w-35 rounded-[50%] border border-cyan-500 max-md:h-25 max-md:w-25"></div>
+      <section className="relative flex min-h-[80dvh] w-[70%] items-center justify-center overflow-hidden before:absolute before:inset-0 before:animate-[morphing_20s_ease-in-out_infinite] before:bg-[radial-gradient(circle_at_20%_50%,rgba(6,182,212,0.3)_0%,transparent_50%),radial-gradient(circle_at_80%_80%,rgba(6,182,212,0.2)_0%,transparent_50%),radial-gradient(circle_at_40%_80%,rgba(6,182,212,0.1)_0%,transparent_50%)] before:content-[''] max-xl:w-[90%]">
+        <div className="floating_rectangle absolute top-[10%] left-[10%] h-25 w-25 rounded-xs border border-cyan-500 max-md:h-12.5 max-xl:h-15 max-xl:w-15 max-md:w-12.5"></div>
+        <div className="floating_circle absolute top-[70%] right-[10%] h-35 w-35 rounded-[50%] border border-cyan-500 max-md:h-25 max-xl:h-31 max-xl:w-31 max-md:w-25"></div>
 
         <div className="flex w-fit flex-col items-center justify-center gap-3 delay-200">
           {/* Title */}
-          <h2 className="animate__animated animate__slideInUp text-8xl max-md:text-center  font-bold text-white uppercase max-md:text-5xl">
+          <h2 className="animate__animated animate__slideInUp text-8xl max-md:text-center  font-bold text-white uppercase max-xl:text-6xl max-md:text-5xl">
             {photographyData.primary_section.title.fst_Wrd}
             <br />
             <span className="text-cyan-500">

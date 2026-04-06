@@ -24,15 +24,15 @@ function OurSolutions_Section() {
               <h2 className="text-5xl text-white max-md:text-4xl">
                 {homeData.offer_section.subtitle}
               </h2>
-              <p className="text-2xl text-[#767373] max-md:text-center max-md:text-lg">
+              <p className="text-2xl text-[#767373]  max-xl:text-center max-xl:text-xl max-md:text-lg">
                 {homeData.offer_section.description}
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex justify-center max-md:flex-col gap-5 max-md:items-center">
-         <div className="flex gap-2 items-center">
+        <div className="flex justify-center max-md:flex-col gap-3 max-md:items-center">
+         <div className="flex gap-3 items-center">
            <Link
             to="/photography"
             className={`animate__animated ${

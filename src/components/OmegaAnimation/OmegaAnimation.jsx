@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Omega = () => {
   return (
     <StyledWrapper>
-      <div className="loader-wrapper h-30 min-h-[20vh] text-[2.5rem] max-md:h-10 max-md:text-[2rem]">
+      <div className="loader-wrapper h-30 min-h-[20vh] text-[2.5rem] max-md:h-10 max-xl:text-[2.2rem] max-md:text-[2rem]">
         <span className="loader-letter">O</span>
         <span className="loader-letter">M</span>
         <span className="loader-letter">E</span>

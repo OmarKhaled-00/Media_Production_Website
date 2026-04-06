@@ -14,7 +14,7 @@ function Header_Section() {
         {/* Text Content */}
         <div className="flex w-fit flex-col items-center justify-center gap-3 text-center">
           {/* Title */}
-          <h2 className="animate__animated animate__slideInUp text-8xl font-bold text-white uppercase delay-200 max-md:text-5xl">
+          <h2 className="animate__animated animate__slideInUp text-8xl font-bold text-white uppercase delay-200 max-xl:text-7xl max-md:text-5xl">
             {videographyData.primary_section.title.fst_Wrd}
             <br />
             <span className="move_horizontal text-cyan-500">

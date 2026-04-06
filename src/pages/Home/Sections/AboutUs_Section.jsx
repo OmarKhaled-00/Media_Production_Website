@@ -8,7 +8,7 @@ function AboutUs_Section() {
     <section
       id="about"
       ref={aboutRef}
-      className="section flex items-center justify-between bg-[url('/back.png')] bg-cover bg-center bg-no-repeat max-md:flex-col max-md:justify-evenly"
+      className="section flex items-center gap-5 justify-between bg-[url('/back.png')] bg-cover bg-center bg-no-repeat max-md:flex-col max-md:justify-evenly"
     >
       {/* Left content */}
       <div className="m-5 flex w-[50%] flex-col justify-between gap-4 max-md:items-center">

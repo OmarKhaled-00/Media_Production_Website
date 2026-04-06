@@ -14,7 +14,7 @@ function Solutions_Section() {
         <h2 className="relative text-5xl text-white before:absolute max-md:text-4xl max-md:before:left-12 before:-bottom-7 before:left-18 before:h-1 before:w-25 before:bg-cyan-500 before:content-['']">
           {videographyData.solution_section.title}
         </h2>
-        <div className="grid cursor-pointer grid-cols-3 gap-10 *:hover:border-cyan-500 *:hover:shadow-2xl *:hover:shadow-cyan-500/50 *:hover:transition-all *:hover:delay-150 *:hover:ease-out max-md:grid-cols-1">
+        <div className="grid cursor-pointer  grid-cols-3 gap-10 *:hover:border-cyan-500 *:hover:shadow-2xl *:hover:shadow-cyan-500/50 *:hover:transition-all *:hover:delay-150 *:hover:ease-out max-xl:grid-cols-1">
           {videographyData.solution_section.cards.map((service) => (
             <VideographyCards
               key={service.id}

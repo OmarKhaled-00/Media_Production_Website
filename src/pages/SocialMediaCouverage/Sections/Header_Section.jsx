@@ -8,7 +8,7 @@ function Header_Section() {
         {/* Text Content */}
         <div className="flex w-fit flex-col items-center justify-center gap-3 text-center">
           {/* Title */}
-          <h2 className="animate__animated animate__slideInUp text-8xl font-bold text-white uppercase delay-200 max-md:text-5xl">
+          <h2 className="animate__animated animate__slideInUp text-8xl max-xl:text-7xl font-bold text-white uppercase delay-200 max-md:text-5xl">
             {socialMediaData.primary_section.title.fst_Wrd}
             <br />
             <span className="text-center text-cyan-500">

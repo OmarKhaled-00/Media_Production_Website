@@ -8,12 +8,12 @@ function Header() {
 
   return (
     <div>
-      <header className="absolute top-0 z-50 flex max-h-30 w-full items-center justify-around gap-5 max-md:justify-between max-md:px-3">
+      <header className="absolute top-0 z-50 flex max-h-30 w-full items-center justify-around gap-5 max-xl:justify-between max-xl:px-3">
         <a href="/" className="animate__animated animate__fadeInDown block">
           <img src={logo} className="h-fit w-50" alt="" />
         </a>
 
-        <nav className="animate__animated animate__fadeInDown flex h-fit w-fit justify-center gap-20 *:cursor-pointer *:text-xl *:font-bold *:capitalize *:hover:text-cyan-600 max-md:hidden">
+        <nav className="animate__animated animate__fadeInDown flex h-fit w-fit justify-center gap-20 *:cursor-pointer *:text-xl *:font-bold *:capitalize *:hover:text-cyan-600 max-xl:hidden">
           <NavLink className={navLinkClass} to="/">
             Home
           </NavLink>
@@ -27,7 +27,7 @@ function Header() {
             Portfolio
           </a>
         </nav>
-        <div className="max-md:flex md:hidden">
+        <div className="max-xl:flex  xl:hidden">
           <MenuBtn />
         </div>
       </header>
