@@ -4,7 +4,10 @@ import videography from "../../assets/elegant-distorted-patterns-with-techinspir
 import socialMedia from "../../assets/social-media.jpg";
 export const homeData = {
   hero_section: {
-    title: "omega media",
+    title: {
+      fst_part:"Elevating Media",
+      snd_part:"Production"
+    },
     subtitle: "we draw the future",
     video_path: headerVid,
   },

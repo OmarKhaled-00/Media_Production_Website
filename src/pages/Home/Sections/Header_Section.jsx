@@ -14,10 +14,10 @@ function Header_Section() {
             heroVisible ? "animate__backInLeft" : "opacity-0"
           }`}
         >
-          <h1 className="masked-text text-6xl text-cyan-500 capitalize max-md:text-3xl">
-            {homeData.hero_section.title}
+          <h1 className=" text-6xl text-white/80 font-bold capitalize max-md:text-3xl">
+            {homeData.hero_section.title.fst_part} <br/> {homeData.hero_section.title.snd_part}
           </h1>
-          <h2 className="masked-text text-4xl text-cyan-500 capitalize max-md:text-2xl">
+          <h2 className=" text-4xl text-white/80 capitalize max-md:text-2xl">
             {homeData.hero_section.subtitle}
           </h2>
         </div>
